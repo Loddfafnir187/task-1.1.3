@@ -11,7 +11,7 @@ public class Util {
 
         String dbName = "temp";
         String userName = "root";
-        String password = "root";
+        String password = "JavaSql";
 
         try {
             return getMySQLConnection(hostName, dbName, userName, password);

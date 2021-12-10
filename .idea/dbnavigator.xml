@@ -24,11 +24,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="3f54d7e8-2a9f-4f19-95d7-5562a3c447f7">
-        <schema name="temp" object-types="table, view" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="3f54d7e8-2a9f-4f19-95d7-5562a3c447f7">
@@ -90,7 +86,7 @@
           <database value="temp" />
           <type value="USER_PASSWORD" />
           <user value="root" />
-          <deprecated-pwd value="cm9vdA==" />
+          <deprecated-pwd value="SmF2YVNxbA==" />
         </database>
         <properties>
           <auto-commit value="true" />
