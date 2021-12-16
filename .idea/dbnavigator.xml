@@ -24,11 +24,16 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="3f54d7e8-2a9f-4f19-95d7-5562a3c447f7">
+        <schema name="mysql" object-types="table, view" />
+        <schema name="temp" object-types="table, view" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="3f54d7e8-2a9f-4f19-95d7-5562a3c447f7">
-      <console name="MySQL80" type="STANDARD" schema="mysql" session="Main" />
+      <console name="MySQL80" type="STANDARD" schema="mysql" session="Main"><![CDATA[create table if not exists Users (id bigint not null auto_increment, age tinyint, lastName varchar(255), name varchar(255), primary key (id))]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -39,7 +44,9 @@
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="3f54d7e8-2a9f-4f19-95d7-5562a3c447f7" dataset="mysql.users" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="3f54d7e8-2a9f-4f19-95d7-5562a3c447f7" dataset="mysql.user" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="3f54d7e8-2a9f-4f19-95d7-5562a3c447f7" dataset="temp.users" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="3f54d7e8-2a9f-4f19-95d7-5562a3c447f7" dataset="temp.user" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
